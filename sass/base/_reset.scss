@@ -1,0 +1,56 @@
+// * , *::after , *::before
+// {
+//     padding: 0;
+//     margin: 0;
+//     box-sizing: inherit;
+// }
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+a{
+    text-decoration: none !important;
+}
+
+// .mt-n5, .my-n5 {
+//   margin-top: -25rem !important;
+// }
+
+
+.third-color {
+  color: #00bcd4;
+}
+
+.gradient-text1 {
+  background: #3264f5;
+  background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+  background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
+  background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7202bb',GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  color: #6d6d6d;
+}
+
+.gradient-bg1 {
+  background: #3264f5;
+  background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+  background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
+  background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+}
